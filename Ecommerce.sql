@@ -217,3 +217,14 @@ select * from pedido inner join item_pedido
 select * from cliente inner join pedido on cliente.id = pedido.cliente_id
 	inner join item_pedido on item_pedido.pedido_numero = pedido.numero
     where item_pedido.produto_codigo = (select codigo from produto having max(preco));
+
+------------------------ AULAS --------------------------------
+
+-- caso não queira seguir a ordem, poderia utilizar
+INSERT INTO departamento(duracao, nome, ano_lancamento) VALUES (120, "Eu Robo", 206);
+
+-- usando o LEFT JOIN trazemos todos os filmes mesmo aqueles que não tem nenhuma
+-- relação com as tabales filmes_generos e generos!
+SELECT filmes.*, generos.nome AS 'Nome do Genero' FROM filmes
+    LEFT JOIN filmes_generos on filmes.id = filmes_generos.filme_id
+    LEFT JOIN generos on filmes_generos.genero_id = generos.id;
