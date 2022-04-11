@@ -26,20 +26,20 @@ Português(Brasil)
 1. Você deverá cadastrar uma nova produtora de filme chamada: Lereby
 Produções
 1. Você deve cadastrar um novo filme com as seguintes informações:
-a. Nome do Filme: O Auto da Compadecida
-b. Estreia: 15 de setembro de 2000
-c. Resumo: As aventuras de João Grilo e Chicó, dois nordestinos
+* a. Nome do Filme: O Auto da Compadecida
+* b. Estreia: 15 de setembro de 2000
+* c. Resumo: As aventuras de João Grilo e Chicó, dois nordestinos
 pobres que vivem de golpes para sobreviver. Eles estão sempre
 enganando o povo de um pequeno vilarejo, inclusive o temido
 cangaceiro Severino de Aracaju, que os persegue pela região.
-d. Popularidade : 2.157.166
-e. Tamanho: 157 min
-f. Receita R$ 11.496.994
-g. Produtora: Lereby Produções
-h. Linguagem Original Brasileira
-i. Gênero: comédia
-j. Os demais valores são nulos
-1. Você deve atualizar o nome da linguagem com ID 24701 para
+* d. Popularidade : 2.157.166
+* e. Tamanho: 157 min
+* f. Receita R$ 11.496.994
+* g. Produtora: Lereby Produções
+* h. Linguagem Original Brasileira
+* i. Gênero: comédia
+* j. Os demais valores são nulos
+5. Você deve atualizar o nome da linguagem com ID 24701 para
 desconhecido
 1. Você deve listar todas as pessoas ligadas ao cinema cadastrada com o
 nome lee, independente se é sobrenome ou primeiro nome. Deve ter o
